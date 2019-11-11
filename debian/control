@@ -1,0 +1,12 @@
+Source: vyatta-debian-ssh-server-config
+Section: contrib/net
+Priority: extra
+Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
+Build-Depends: debhelper (>= 9.0.0)
+Standards-Version: 3.9.4
+
+Package: vyatta-debian-ssh-server-config
+Architecture: all
+Depends: openssh-server, ${misc:Depends}
+Description: Vyatta changes to the Debian default configuration
+ This package includes the Vyatta changes to the Debian default configuration.
